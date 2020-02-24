@@ -1,4 +1,9 @@
 {
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "jest/globals": true
+  },
   "extends": [
     "airbnb",
     "prettier",
@@ -8,7 +13,7 @@
     "plugin:react-native/all",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["react", "react-native", "@typescript-eslint"],
+  "plugins": ["react", "react-native", "@typescript-eslint", "jest"],
   "parser": "@typescript-eslint/parser",
   "rules": {
     "consistent-return": 0,
@@ -41,5 +46,8 @@
     "spaced-comment": 1,
     "no-console": 0,
     "react/jsx-no-bind": 0
+  },
+  "globals": {
+    "__DEV__": true
   }
 }
