@@ -7,6 +7,7 @@
 ```
 npm install -D eslint \
   eslint-config-airbnb \
+  eslint-plugin-jest \
   eslint-config-prettier \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
