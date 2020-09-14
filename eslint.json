@@ -14,7 +14,7 @@
     "plugin:react-native/all",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["react", "react-native", "@typescript-eslint", "jest", "better-styled-components"],
+  "plugins": ["react", "react-native", "@typescript-eslint", "jest"],
   "parser": "@typescript-eslint/parser",
   "rules": {
     "consistent-return": 0,
@@ -53,9 +53,11 @@
     "no-duplicate-case": 0,
     "no-fallthrough": 0,
     "react/jsx-one-expression-per-line": 0,
-    "better-styled-components/sort-declarations-alphabetically": 2,
     "no-plusplus": 0,
-    "react/display-name": 0
+    "react/display-name": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "no-underscore-dangle": 0,
+    "no-case-declarations": 0
   },
   "globals": {
     "__DEV__": true
