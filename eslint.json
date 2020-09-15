@@ -57,7 +57,13 @@
     "react/display-name": 0,
     "@typescript-eslint/ban-ts-ignore": 0,
     "no-underscore-dangle": 0,
-    "no-case-declarations": 0
+    "no-case-declarations": 0,    
+    "@typescript-eslint/no-var-requires": 0,
+    "import/order": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/ban-types": 0
   },
   "globals": {
     "__DEV__": true
