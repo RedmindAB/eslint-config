@@ -1,3 +1,5 @@
-const config = require('./eslint')
+const defaultConfig = {
+  extends: ['./typescript.js', './react.js',],
+}
 
-module.exports = config
+module.exports = defaultConfig

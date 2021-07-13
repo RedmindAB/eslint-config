@@ -1,6 +1,6 @@
 # eslint-config
 
-## Install packages
+## 📦 Install packages
 
 ### For front-end
 
@@ -32,28 +32,27 @@ npm install -D eslint \
   @redmindab/eslint-config
 ```
 
-## Create config files
+## 🔧 Create config files
 
-create `.eslintrc.json` in the root of the project with the following content
+create `.eslintrc` in the root of the project with the following content
 
-```
+```json
 {
   "extends": ["@redmindab/eslint-config"]
 }
 ```
 
-remove any other .eslintrc file
+You can also choose to extend only the react or typescript configuration:
 
-
-create `.prettierrc` in the root of the project with the following content
-
-```
+```json
 {
-  "singleQuote": true,
-  "semi": false
+  "extends": ["@redmindab/eslint-config/typescript", "@redmindab/eslint-config/react"]
 }
-
 ```
+
+---
+
+Create a `.prettierrc` in the root of the project with the [following content](https://gist.github.com/Saschamz/7ae57530abeaab1beaa81240558a07c8)
 
 ## Update all files in src directory
 
@@ -61,4 +60,3 @@ create `.prettierrc` in the root of the project with the following content
 npx prettier --write src/**/*.{ts,tsx}
 npx eslint --fix src/**/*.{ts,tsx}
 ```
-

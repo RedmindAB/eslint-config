@@ -1,0 +1,37 @@
+module.exports = {
+  env: {
+    node: true,
+    commonjs: true,
+    "jest/globals": true,
+  },
+  extends: [
+    "prettier/react",
+    "plugin:react/recommended",
+    "plugin:react-native/all",
+    "./typescript",
+  ],
+  plugins: ["react", "react-native", "react-hooks",],
+  parser: "@typescript-eslint/parser",
+  rules: {
+    "jsx-quotes": ["error", "prefer-double",],
+    "react-native/no-color-literals": 0,
+    "react-native/no-inline-styles": 0,
+    "react-native/no-raw-text": 0,
+    "react/display-name": 0,
+    "react/jsx-curly-newline": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-no-bind": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-array-index-key": 0,
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
+    "react/state-in-constructor": 0,
+    "react/jsx-no-useless-fragment": 1,
+    "react/jsx-pascal-case": 2,
+    "react/jsx-wrap-multilines": 2,
+  },
+  globals: {
+    __DEV__: true,
+  },
+}
