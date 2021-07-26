@@ -31,11 +31,11 @@ module.exports = {
     'comma-dangle': [
       'error',
       {
-        arrays: 'always',
-        objects: 'always',
-        imports: 'never',
-        exports: 'never',
-        functions: 'never',
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'always-multiline',
       },
     ],
     'consistent-return': 0,
