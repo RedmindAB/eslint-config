@@ -10,10 +10,10 @@ module.exports = {
     "plugin:react-native/all",
     "./typescript",
   ],
-  plugins: ["react", "react-native", "react-hooks",],
+  plugins: ["react", "react-native", "react-hooks"],
   parser: "@typescript-eslint/parser",
   rules: {
-    "jsx-quotes": ["error", "prefer-double",],
+    "jsx-quotes": ["error", "prefer-double"],
     "react-native/no-color-literals": 0,
     "react-native/no-inline-styles": 0,
     "react-native/no-raw-text": 0,

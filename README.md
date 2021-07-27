@@ -1,10 +1,14 @@
-# eslint-config
+# @redmindab/eslint-config
+
+> Redmind's internal eslint configuration.
 
 ## 📦 Install packages
 
-### For front-end
+`npm i -D @redmindab/eslint-config`
 
-```
+### React & Typescript plugins
+
+```console
 npm install -D eslint \
   eslint-config-airbnb \
   eslint-plugin-jest \
@@ -20,9 +24,9 @@ npm install -D eslint \
   @redmindab/eslint-config
 ```
 
-### For back-end
+### Typescript plugins
 
-```
+```console
 npm install -D eslint \
   eslint-config-airbnb \
   eslint-config-prettier \
@@ -53,6 +57,8 @@ You can also choose to extend only the react or typescript configuration:
 ---
 
 Create a `.prettierrc` in the root of the project with the [following content](https://gist.github.com/Saschamz/7ae57530abeaab1beaa81240558a07c8)
+
+---
 
 ## Update all files in src directory
 

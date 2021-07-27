@@ -1,5 +1,5 @@
 const defaultConfig = {
-  extends: ['./typescript.js', './react.js',],
+  extends: ["./typescript.js", "./react.js"],
 }
 
 module.exports = defaultConfig
