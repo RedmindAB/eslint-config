@@ -29,7 +29,18 @@ module.exports = {
     "react/state-in-constructor": 0,
     "react/jsx-no-useless-fragment": 1,
     "react/jsx-pascal-case": 2,
-    "react/jsx-wrap-multilines": 2,
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        declaration: "parens",
+        assignment: "parens",
+        return: "parens",
+        arrow: "parens",
+        condition: "parens",
+        logical: "parens",
+        prop: "ignore",
+      },
+    ],
   },
   globals: {
     __DEV__: true,
