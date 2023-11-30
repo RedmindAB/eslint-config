@@ -4,12 +4,7 @@ module.exports = {
     commonjs: true,
     "jest/globals": true,
   },
-  extends: [
-    "prettier/react",
-    "plugin:react/recommended",
-    "plugin:react-native/all",
-    "./typescript",
-  ],
+  extends: ["plugin:react/recommended", "plugin:react-native/all", "./typescript", "prettier"],
   plugins: ["react", "react-native", "react-hooks"],
   parser: "@typescript-eslint/parser",
   rules: {
