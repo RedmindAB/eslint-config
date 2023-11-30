@@ -4,7 +4,9 @@
 
 ## 📦 Install packages
 
-`npm i -D @redmindab/eslint-config`
+```bash
+$ npm i -D @redmindab/eslint-config && npx install-peerdeps -D @redmindab/eslint-config
+```
 
 ## 🔧 Create config files
 
