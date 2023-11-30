@@ -4,13 +4,7 @@ module.exports = {
     commonjs: true,
     "jest/globals": true,
   },
-  extends: [
-    "airbnb",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-  ],
+  extends: ["airbnb", "prettier", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
   plugins: ["@typescript-eslint", "jest"],
   parser: "@typescript-eslint/parser",
   rules: {
