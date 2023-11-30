@@ -6,36 +6,6 @@
 
 `npm i -D @redmindab/eslint-config`
 
-### React & Typescript plugins
-
-```console
-npm install -D eslint \
-  eslint-config-airbnb \
-  eslint-plugin-jest \
-  eslint-config-prettier \
-  eslint-plugin-import \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-react-hooks \
-  eslint-plugin-react-native \
-  typescript \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser \
-  @redmindab/eslint-config
-```
-
-### Typescript plugins
-
-```console
-npm install -D eslint \
-  eslint-config-airbnb \
-  eslint-config-prettier \
-  eslint-plugin-import \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser \
-  @redmindab/eslint-config
-```
-
 ## 🔧 Create config files
 
 create `.eslintrc` in the root of the project with the following content
