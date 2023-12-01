@@ -5,6 +5,7 @@ module.exports = {
     "jest/globals": true,
   },
   extends: [
+    "airbnb-typescript",
     "plugin:react/recommended",
     "plugin:react-native/all",
     "./typescript",
