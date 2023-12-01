@@ -1,6 +1,6 @@
 {
   "name": "@redmindab/eslint-config",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Redmind ESlint config",
   "main": "index.js",
   "scripts": {
