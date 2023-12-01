@@ -1,6 +1,6 @@
 # @redmindab/eslint-config
 
-> Redmind's internal eslint configuration.
+> Redmind's internal TypeScript eslint configuration.
 
 ## 📦 Install package and peer dependencies
 
@@ -14,7 +14,10 @@ create `.eslintrc` in the root of the project with the following content
 
 ```json
 {
-  "extends": ["@redmindab/eslint-config"]
+  "extends": ["@redmindab/eslint-config"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
@@ -22,7 +25,10 @@ You can also choose to extend only the react or typescript configuration:
 
 ```json
 {
-  "extends": ["@redmindab/eslint-config/typescript", "@redmindab/eslint-config/react"]
+  "extends": ["@redmindab/eslint-config/typescript", "@redmindab/eslint-config/react"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
