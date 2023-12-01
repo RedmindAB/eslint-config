@@ -4,7 +4,13 @@ module.exports = {
     commonjs: true,
     "jest/globals": true,
   },
-  extends: ["plugin:react/recommended", "plugin:react-native/all", "./typescript", "prettier"],
+  extends: [
+    "plugin:react/recommended",
+    "plugin:react-native/all",
+    "plugin:react/jsx-runtime",
+    "./typescript",
+    "prettier",
+  ],
   plugins: ["react", "react-native", "react-hooks"],
   parser: "@typescript-eslint/parser",
   rules: {
@@ -21,6 +27,11 @@ module.exports = {
     "react/no-array-index-key": 0,
     "react/prefer-stateless-function": 0,
     "react/prop-types": 0,
+    "@typescript-eslint/no-shadow": 1,
+    "no-shadow": 0,
+    "global-require": 0,
+    "no-restricted-exports": 0,
+    "react/style-prop-object": 0,
     "react/no-unstable-nested-components": [
       "warn",
       {

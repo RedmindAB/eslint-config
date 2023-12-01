@@ -2,7 +2,7 @@
 
 > Redmind's internal eslint configuration.
 
-## 📦 Install packages
+## 📦 Install package and peer dependencies
 
 ```bash
 $ npm i -D @redmindab/eslint-config && npx install-peerdeps -D @redmindab/eslint-config
