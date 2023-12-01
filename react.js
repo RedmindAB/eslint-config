@@ -7,9 +7,9 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "plugin:react-native/all",
-    "plugin:react/jsx-runtime",
     "./typescript",
     "prettier",
+    "plugin:react/jsx-runtime",
   ],
   plugins: ["react", "react-native", "react-hooks"],
   parser: "@typescript-eslint/parser",
