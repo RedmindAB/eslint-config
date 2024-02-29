@@ -9,9 +9,9 @@
   "author": "Sascha Ringström",
   "license": "ISC",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
-    "eslint": "*",
+    "@typescript-eslint/eslint-plugin": ">=6.0.0",
+    "@typescript-eslint/parser": ">=6.0.0",
+    "eslint": ">=8.0.0",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
