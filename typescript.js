@@ -80,5 +80,12 @@ module.exports = {
     "@typescript-eslint/restrict-plus-operands": [2],
     "@typescript-eslint/lines-between-class-members": 0,
     "react-native/split-platform-components": 0,
+    eqeqeq: 2,
+    "max-depth": [2, 3],
+    "no-alert": 2,
+    "prefer-arrow-callback": 2,
+    yoda: 2,
+    "max-lines": [2, 300],
+    "max-statements": [2, 30],
   },
 }
