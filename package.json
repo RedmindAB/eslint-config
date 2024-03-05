@@ -1,6 +1,6 @@
 {
   "name": "@redmindab/eslint-config",
-  "version": "1.7.0",
+  "version": "1.8.1",
   "description": "Redmind ESlint config",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Sascha Ringström",
   "license": "ISC",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=6.0.0",
-    "@typescript-eslint/parser": ">=6.0.0",
+    "@typescript-eslint/eslint-plugin": ">=7.0.0",
+    "@typescript-eslint/parser": ">=7.0.0",
     "eslint": ">=8.0.0",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "*",
