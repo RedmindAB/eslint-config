@@ -12,9 +12,10 @@ module.exports = {
     "prettier",
     "plugin:react/jsx-runtime",
   ],
-  plugins: ["react", "react-native", "react-hooks"],
+  plugins: ["react", "react-native", "react-hooks", "@shopify"],
   parser: "@typescript-eslint/parser",
   rules: {
+    "@shopify/jsx-no-hardcoded-content": 1,
     "jsx-quotes": ["error", "prefer-double"],
     "react-native/no-color-literals": 0,
     "react-native/no-inline-styles": 0,

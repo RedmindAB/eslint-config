@@ -12,6 +12,7 @@
     "@typescript-eslint/eslint-plugin": ">=7.0.0",
     "@typescript-eslint/parser": ">=7.0.0",
     "eslint": ">=8.0.0",
+    "eslint-config-airbnb-typescript": "*",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
@@ -19,9 +20,10 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-react-native": "*",
-    "eslint-config-airbnb-typescript": "*"
+    "@shopify/eslint-plugin": "*"
   },
   "devDependencies": {
+    "@shopify/eslint-plugin": "^44.0.0",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
     "eslint": "^8.54.0",

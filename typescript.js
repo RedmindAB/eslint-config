@@ -87,5 +87,9 @@ module.exports = {
     yoda: 2,
     "max-lines": [2, 300],
     "max-statements": [2, 30],
+    "no-else-return": 2,
+    "no-unreachable": 1,
+    "no-unreachable-loop": 2,
+    "arrow-body-style": 1,
   },
 }
