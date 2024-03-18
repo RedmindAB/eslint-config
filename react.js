@@ -16,6 +16,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   rules: {
     "@shopify/jsx-no-hardcoded-content": 1,
+    "react-native/split-platform-components": 0,
     "jsx-quotes": ["error", "prefer-double"],
     "react-native/no-color-literals": 0,
     "react-native/no-inline-styles": 0,
@@ -29,10 +30,6 @@ module.exports = {
     "react/no-array-index-key": 0,
     "react/prefer-stateless-function": 0,
     "react/prop-types": 0,
-    "@typescript-eslint/no-shadow": 1,
-    "no-shadow": 0,
-    "global-require": 0,
-    "no-restricted-exports": 0,
     "react/style-prop-object": 0,
     "react/no-unstable-nested-components": [
       "warn",
@@ -40,7 +37,6 @@ module.exports = {
         allowAsProps: true,
       },
     ],
-    "arrow-body-style": 0,
     "react/require-default-props": 0,
     "react/function-component-definition": [
       2,
