@@ -15,6 +15,7 @@ module.exports = {
   plugins: ["react", "react-native", "react-hooks", "@shopify"],
   parser: "@typescript-eslint/parser",
   rules: {
+    "react/jsx-boolean-value": 2,
     "@shopify/jsx-no-hardcoded-content": 1,
     "react-native/split-platform-components": 0,
     "jsx-quotes": ["error", "prefer-double"],
