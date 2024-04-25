@@ -10,7 +10,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
   ],
-  plugins: ["@typescript-eslint", "jest"],
+  plugins: ["@typescript-eslint", "jest", "perfectionist", "unused-imports"],
   parser: "@typescript-eslint/parser",
   rules: {
     "@typescript-eslint/ban-ts-ignore": 0,
@@ -93,5 +93,37 @@ module.exports = {
     "@typescript-eslint/no-unnecessary-condition": 2,
     "@typescript-eslint/no-unnecessary-type-constraint": 2,
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": 2,
+    "perfectionist/sort-objects": 1,
+    "perfectionist/sort-named-exports": 1,
+    "perfectionist/sort-maps": 1,
+    "perfectionist/sort-array-includes": 1,
+    "sort-imports": 0,
+    "unused-imports/no-unused-imports": 1,
+    "perfectionist/sort-enums": [1, { type: "line-length", "partition-by-comment": true }],
+    "perfectionist/sort-interfaces": [1, { type: "line-length" }],
+    "perfectionist/sort-object-types": [1, { type: "line-length" }],
+    "perfectionist/sort-jsx-props": 1,
+    "padding-line-between-statements": [
+      1,
+      // * Always blank line before "next"
+      {
+        blankLine: "always",
+        prev: "*",
+        next: ["return", "for", "while", "export", "function", "block-like", "throw"],
+      },
+      // * Always blank line after "prev"
+      { blankLine: "always", prev: ["for", "while", "function", "block-like"], next: "*" },
+      // * Never blank lines between switch cases
+      { blankLine: "never", prev: ["case"], next: "*" },
+      { blankLine: "never", prev: "*", next: ["case"] },
+    ],
+    "perfectionist/sort-imports": [
+      1,
+      {
+        type: "line-length",
+        groups: ["side-effect", "external", "internal"],
+        "newlines-between": "always",
+      },
+    ],
   },
 }

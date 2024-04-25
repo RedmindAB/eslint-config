@@ -9,18 +9,20 @@
   "author": "Sascha Ringström",
   "license": "ISC",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=7.0.0",
-    "@typescript-eslint/parser": ">=7.0.0",
+    "@shopify/eslint-plugin": "*",
+    "@typescript-eslint/eslint-plugin": ">=7",
+    "@typescript-eslint/parser": ">=7",
     "eslint": ">=8.0.0",
     "eslint-config-airbnb-typescript": "*",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
     "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-perfectionist": ">=2",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-react-native": "*",
-    "@shopify/eslint-plugin": "*"
+    "eslint-plugin-unused-imports": ">=3"
   },
   "devDependencies": {
     "@shopify/eslint-plugin": "^44.0.0",
@@ -32,8 +34,10 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "*",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-perfectionist": "^2.10.0",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "eslint-plugin-react-native": "^3.8.1"
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-unused-imports": "^3.1.0"
   }
 }
