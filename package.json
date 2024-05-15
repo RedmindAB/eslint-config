@@ -22,7 +22,8 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-react-native": "*",
-    "eslint-plugin-unused-imports": ">=3"
+    "eslint-plugin-unused-imports": ">=3",
+    "eslint-plugin-better-styled-components": ">=1"
   },
   "devDependencies": {
     "@shopify/eslint-plugin": "^44.0.0",
@@ -31,6 +32,7 @@
     "eslint": "^8.54.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-better-styled-components": "^1.1.2",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "*",
     "eslint-plugin-jsx-a11y": "^6.2.3",

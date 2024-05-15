@@ -99,9 +99,25 @@ module.exports = {
     "perfectionist/sort-array-includes": 1,
     "sort-imports": 0,
     "unused-imports/no-unused-imports": 1,
-    "perfectionist/sort-enums": [1, { type: "line-length", "partition-by-comment": true }],
-    "perfectionist/sort-interfaces": [1, { type: "line-length" }],
-    "perfectionist/sort-object-types": [1, { type: "line-length" }],
+    "perfectionist/sort-enums": [1, { "partition-by-comment": true }],
+    "perfectionist/sort-interfaces": [
+      1,
+      {
+        groups: ["special", "multiline"],
+        "custom-groups": {
+          special: ["id", "_id"],
+        },
+      },
+    ],
+    "perfectionist/sort-object-types": [
+      1,
+      {
+        groups: ["special", "multiline"],
+        "custom-groups": {
+          special: ["id", "_id"],
+        },
+      },
+    ],
     "perfectionist/sort-jsx-props": 1,
     "padding-line-between-statements": [
       1,
@@ -120,7 +136,6 @@ module.exports = {
     "perfectionist/sort-imports": [
       1,
       {
-        type: "line-length",
         groups: ["side-effect", "external", "internal"],
         "newlines-between": "always",
       },

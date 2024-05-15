@@ -12,7 +12,7 @@ module.exports = {
     "prettier",
     "plugin:react/jsx-runtime",
   ],
-  plugins: ["react", "react-native", "react-hooks", "@shopify"],
+  plugins: ["react", "react-native", "react-hooks", "@shopify", "better-styled-components"],
   parser: "@typescript-eslint/parser",
   rules: {
     "react/jsx-boolean-value": 2,
@@ -58,6 +58,7 @@ module.exports = {
         prop: "ignore",
       },
     ],
+    "better-styled-components/sort-declarations-alphabetically": 1,
   },
   globals: {
     __DEV__: true,
