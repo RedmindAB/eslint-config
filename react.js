@@ -12,9 +12,22 @@ module.exports = {
     "prettier",
     "plugin:react/jsx-runtime",
   ],
-  plugins: ["react", "react-native", "react-hooks", "@shopify", "better-styled-components"],
+  plugins: [
+    "react",
+    "react-native",
+    "react-hooks",
+    "@shopify",
+    "better-styled-components",
+    "react-refresh",
+  ],
   parser: "@typescript-eslint/parser",
   rules: {
+    "react-refresh/only-export-components": [
+      1,
+      {
+        allowConstantExport: true,
+      },
+    ],
     "react/jsx-boolean-value": 2,
     "@shopify/jsx-no-hardcoded-content": 1,
     "react-native/split-platform-components": 0,
