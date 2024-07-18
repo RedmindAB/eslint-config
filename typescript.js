@@ -14,6 +14,7 @@ module.exports = {
   plugins: ["@typescript-eslint", "jest", "perfectionist", "unused-imports"],
   parser: "@typescript-eslint/parser",
   rules: {
+    "no-undef": 0,
     "@typescript-eslint/ban-ts-ignore": 0,
     "@typescript-eslint/ban-types": 0,
     "@typescript-eslint/camelcase": 0,
