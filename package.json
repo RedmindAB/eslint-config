@@ -19,13 +19,14 @@
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
     "eslint-plugin-jsx-a11y": "*",
-    "eslint-plugin-perfectionist": ">=2",
+    "eslint-plugin-perfectionist": "^2.0.0",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-react-native": "*",
     "eslint-plugin-react-refresh": "*",
     "eslint-plugin-unused-imports": ">=3",
-    "eslint-plugin-arrow-return-style": "*"
+    "eslint-plugin-arrow-return-style": "*",
+    "eslint-formatter-codeframe": "*"
   },
   "devDependencies": {
     "@shopify/eslint-plugin": "^44.0.0",
