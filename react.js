@@ -29,7 +29,12 @@ module.exports = {
       },
     ],
     "react/jsx-boolean-value": 2,
-    "@shopify/jsx-no-hardcoded-content": 1,
+    "@shopify/jsx-no-hardcoded-content": [
+      1,
+      {
+        checkProps: ["title", "body", "text", "label"],
+      },
+    ],
     "react-native/split-platform-components": 0,
     "jsx-quotes": ["error", "prefer-double"],
     "react-native/no-color-literals": 0,
