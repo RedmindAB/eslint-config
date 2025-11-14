@@ -6,7 +6,7 @@ type Props = {
   title: string
 }
 
-export const Modal = ({ onClose, title }: Props) => {
+const Modal = ({ onClose, title }: Props) => {
   const [isOpen, setIsOpen] = useState(true)
 
   const handleClose = () => {
@@ -25,3 +25,5 @@ export const Modal = ({ onClose, title }: Props) => {
     </div>
   )
 }
+
+export default Modal

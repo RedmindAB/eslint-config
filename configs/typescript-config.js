@@ -43,6 +43,7 @@ export default defineConfig([
       "@typescript-eslint/array-type": "error",
       "@typescript-eslint/consistent-generic-constructors": "error",
       "@typescript-eslint/consistent-indexed-object-style": "error",
+      "@typescript-eslint/consistent-type-definitions": ["error", "type"],
       "dot-notation": "off",
       "@typescript-eslint/dot-notation": "error",
       "max-params": "off",
