@@ -1,4 +1,3 @@
-import shopify from "@shopify/eslint-plugin"
 import betterStyledComponents from "eslint-plugin-better-styled-components"
 import react from "eslint-plugin-react"
 import reactHooks from "eslint-plugin-react-hooks"
@@ -23,7 +22,6 @@ export default defineConfig([
       react,
       "react-native": reactNative,
       "react-hooks": reactHooks,
-      "@shopify": shopify,
       "better-styled-components": betterStyledComponents,
       "react-refresh": reactRefresh,
     },

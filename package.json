@@ -3,13 +3,7 @@
   "name": "@redmindab/eslint-config",
   "version": "6.0.0",
   "description": "Redmind ESlint config",
-  "exports": {
-    ".": "./configs/frontend-config.js",
-    "./backend": "./configs/backend-config.js",
-    "./frontend": "./configs/frontend-config.js",
-    "./react": "./configs/react-config.js",
-    "./typescript": "./configs/typescript-config.js"
-  },
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -19,7 +13,6 @@
   "author": "Sascha Ringström",
   "license": "ISC",
   "peerDependencies": {
-    "@shopify/eslint-plugin": "*",
     "@typescript-eslint/eslint-plugin": ">=7",
     "@typescript-eslint/parser": ">=7",
     "eslint": ">=9.0.0",
@@ -38,7 +31,6 @@
     "eslint-formatter-codeframe": "*"
   },
   "devDependencies": {
-    "@shopify/eslint-plugin": "^50.0.0",
     "@types/react": "^18.3.3",
     "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.8",
