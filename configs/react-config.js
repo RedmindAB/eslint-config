@@ -33,12 +33,6 @@ export default defineConfig([
         },
       ],
       "react/jsx-boolean-value": "error",
-      "@shopify/jsx-no-hardcoded-content": [
-        "warn",
-        {
-          checkProps: ["title", "body", "text", "label"],
-        },
-      ],
       "react-native/split-platform-components": "off",
       "jsx-quotes": ["error", "prefer-double"],
       "react-native/no-color-literals": "off",
