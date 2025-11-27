@@ -19,6 +19,7 @@ const Modal = ({ onClose, title }: Props) => {
   return (
     <div className="modal">
       <h2>{title}</h2>
+      <img alt="" src="" />
       <button onClick={handleClose} type="button">
         Close
       </button>
