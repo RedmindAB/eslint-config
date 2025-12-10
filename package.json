@@ -10,6 +10,12 @@
     "lint:test-fixtures": "eslint test-fixtures/",
     "deploy": "npm publish"
   },
+  "exports": {
+    ".": "./index.js",
+    "./frontend": "./configs/frontend-config.js",
+    "./backend": "./configs/backend-config.js",
+    "./typescript": "./configs/typescript-config.js"
+  },
   "author": "Sascha Ringström",
   "license": "ISC",
   "peerDependencies": {
