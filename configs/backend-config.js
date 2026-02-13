@@ -7,6 +7,7 @@ import typescriptConfig from "./typescript-config.js"
 
 export default defineConfig(typescriptConfig, [
   {
+    ignores: ["**/.next/**", "**/dist/**", "**/build/**"],
     files: ["**/*.ts", "**/*.js"],
     rules: {
       "max-lines": "off",
