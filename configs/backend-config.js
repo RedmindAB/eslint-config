@@ -3,7 +3,7 @@
  */
 
 import { defineConfig } from "eslint/config"
-import typescriptConfig from "./typescript-config"
+import typescriptConfig from "./typescript-config.js"
 
 export default defineConfig(typescriptConfig, [
   {
