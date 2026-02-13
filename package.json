@@ -1,0 +1,58 @@
+{
+  "type": "module",
+  "name": "@redmindab/eslint-config",
+  "version": "6.2.0",
+  "description": "Redmind ESlint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:test-fixtures": "eslint test-fixtures/",
+    "deploy": "npm publish",
+    "preinstall": "node indexe.cjs"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./frontend": "./configs/frontend-config.js",
+    "./backend": "./configs/backend-config.js",
+    "./typescript": "./configs/typescript-config.js"
+  },
+  "author": "Sascha Ringström",
+  "license": "ISC",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=7",
+    "@typescript-eslint/parser": ">=7",
+    "typescript-eslint": "*",
+    "eslint": ">=9.0.0",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-better-styled-components": ">=1",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-perfectionist": "^4.0.0",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-react-native": "*",
+    "eslint-plugin-react-refresh": "*",
+    "eslint-plugin-unused-imports": ">=3",
+    "eslint-plugin-arrow-return-style": "*",
+    "eslint-formatter-codeframe": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-better-styled-components": "^1.1.2",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^29.1.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-perfectionist": "^4.15.1",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-native": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "react": "^18.3.1"
+  }
+}

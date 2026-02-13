@@ -1,0 +1,9 @@
+test-fixtures/
+eslint.config.js
+.git/
+.gitignore
+.prettierrc
+package-old.json
+README.md
+node_modules/
+.DS_Store
